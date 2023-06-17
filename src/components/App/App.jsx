@@ -9,6 +9,7 @@ export const App = () => {
         <Route index element={<Home />} />
         <Route path={routes.COUNTRY} element={<CountrySearch />} />
         <Route path={routes.COUNTRY_ID} element={<Country />} />
+        {/* <Route path="mypahth" element={<div>hello</div>} /> */}
       </Route>
     </Routes>
   );
